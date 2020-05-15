@@ -2,100 +2,146 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>module3-solution</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@0;1&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
-    <title>Food-Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Satisfy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Vidaloka&display=swap" rel="stylesheet">
 </head>
 
 <body>
-
-    <body>
-        <nav class="navbar navbar-default">
+    <header>
+        <nav id="header-nav" class="navbar navbar-default">
             <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-menu" aria-expanded="false">
-			  <span class="sr-only">Toggle navigation</span>
-			  <span class="icon-bar"></span>
-			  <span class="icon-bar"></span>
-			  <span class="icon-bar"></span>
-			</button>
-                    <a class="navbar-brand" href="#">Food Website</a>
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div id="top" class="navbar-header">
+                    <a href="index.html" class="pull-left">
+                        <img src="images/logo.png" alt="logo" class="circle">
+                    </a>
+
+                    <div class="navbar-brand">
+                        <a href="index.html">
+                            <h1>Good Food</h1>
+                        </a>
+                    </div>
+
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		  </button>
                 </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div id="collapsable-nav" class="collapse navbar-collapse">
+                    <ul id="nav-list" class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#Chiken" class="visible-xs">
+                                <span></span><br class="hidden-xs"> Chiken</a>
+                        </li>
+                        <li>
+                            <a href="#Beef" class="visible-xs">
+                                <span></span><br class="hidden-xs"> Beef</a>
+                        </li>
+                        <li>
+                            <a href="#Sushi" class="visible-xs">
+                                <span></span><br class="hidden-xs"> Sushi</a>
+                        </li>
 
-
-                <div class="collapse navbar-collapse" id="navbar-menu">
-                    <ul class="nav navbar-nav visible-xs">
-                        <li><a href="#chicken" class="text-center">Chicken<span class="sr-only">(current)</span></a></li>
-                        <li><a href="#beef" class="text-center">Beef</a></li>
-                        <li><a href="#sushi" class="text-center">Sushi</a></li>
                     </ul>
+                    <!-- #nav-list -->
                 </div>
-            </div>
+                <!-- .collapse .navbar-collapse -->
 
+            </div>
+            <!-- .container -->
         </nav>
+        <!-- #header-nav -->
+    </header>
 
-        <h2 class="text-center">Our Menu</h2>
+    <div>
+        <h1 class="h" class="text-center">Our Menu</h1>
+    </div>
 
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-xs-12">
-                    <div class="section" class="card">
-                        <h3 class="text-center" id="chicken">Chicken</h3>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in ullamcorper erat. Vivamus tempor metus orci, non placerat est interdum non. Integer neque orci, finibus nec arcu et, vestibulum luctus urna. Suspendisse potenti. Sed maximus molestie mi
-                        ac sodales. Morbi egestas velit eget vehicula pharetra. Maecenas feugiat mi vel eros vulputate, et ornare tortor bibendum. Nam accumsan ligula ipsum, a interdum dolor pretium a. Duis a tellus nec lacus tempor mollis. Donec et magna
-                        vitae lorem ultrices euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in ullamcorper erat. Vivamus tempor metus orci, non placerat est interdum non. Integer neque orci, finibus nec arcu et, vestibulum luctus
-                        urna. Suspendisse potenti. Sed maximus molestie mi ac sodales. Morbi egestas velit eget vehicula pharetra. Maecenas feugiat mi vel eros vulputate, et ornare tortor bibendum. Nam accumsan ligula ipsum, a interdum dolor pretium a.
-                        Duis a tellus nec lacus tempor mollis. Donec et magna vitae lorem ultrices euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in ullamcorper erat. Vivamus tempor metus orci, non placerat est interdum non. Integer
-                        neque orci, finibus nec arcu et, vestibulum luctus urna. Suspendisse potenti. Sed maximus molestie mi ac sodales. Morbi egestas velit eget vehicula pharetra. Maecenas feugiat mi vel eros vulputate, et ornare tortor bibendum. Nam
-                        accumsan ligula ipsum, a interdum dolor pretium a. Duis a tellus nec lacus tempor mollis. Donec et magna vitae lorem ultrices euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in ullamcorper erat. Vivamus tempor
-                        metus orci, non placerat est interdum non. Integer neque orci, finibus nec arcu et, vestibulum luctus urna. Suspendisse potenti. Sed maximus molestie mi ac sodales. Morbi egestas velit eget vehicula pharetra. Maecenas feugiat mi
-                        vel eros vulputate, et ornare tortor bibendum. Nam accumsan ligula ipsum, a interdum dolor pretium a. Duis a tellus nec lacus tempor mollis. Donec et magna vitae lorem ultrices euismod. Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit. Nunc in ullamcorper erat. Vivamus tempor metus orci, non placerat est interdum non. Integer neque orci, finibus nec arcu et, vestibulum luctus urna. Suspendisse potenti. Sed maximus molestie mi ac sodales. Morbi egestas velit
-                        eget vehicula pharetra. Maecenas feugiat mi vel eros vulputate, et ornare tortor bibendum. Nam accumsan ligula ipsum, a interdum dolor pretium a. Duis a tellus nec lacus tempor mollis. Donec et magna vitae lorem ultrices euismod.
-                    </div>
-                </div>
-                <div class="col-xs-12">
-                    <div class="section" class="card">
-                        <h3 class="text-center" id="beef">Beef</h3>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in ullamcorper erat. Vivamus tempor metus orci, non placerat est interdum non. Integer neque orci, finibus nec arcu et, vestibulum luctus urna. Suspendisse potenti. Sed maximus molestie mi
-                        ac sodales. Morbi egestas velit eget vehicula pharetra. Maecenas feugiat mi vel eros vulputate, et ornare tortor bibendum. Nam accumsan ligula ipsum, a interdum dolor pretium a. Duis a tellus nec lacus tempor mollis. Donec et magna
-                        vitae lorem ultrices euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in ullamcorper erat. Vivamus tempor metus orci, non placerat est interdum non. Integer neque orci, finibus nec arcu et, vestibulum luctus
-                        urna. Suspendisse potenti. Sed maximus molestie mi ac sodales. Morbi egestas velit eget vehicula pharetra. Maecenas feugiat mi vel eros vulputate, et ornare tortor bibendum. Nam accumsan ligula ipsum, a interdum dolor pretium a.
-                        Duis a tellus nec lacus tempor mollis. Donec et magna vitae lorem ultrices euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in ullamcorper erat. Vivamus tempor metus orci, non placerat est interdum non. Integer
-                        neque orci, finibus nec arcu et, vestibulum luctus urna. Suspendisse potenti. Sed maximus molestie mi ac sodales. Morbi egestas velit eget vehicula pharetra. Maecenas feugiat mi vel eros vulputate, et ornare tortor bibendum. Nam
-                        accumsan ligula ipsum, a interdum dolor pretium a. Duis a tellus nec lacus tempor mollis. Donec et magna vitae lorem ultrices euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in ullamcorper erat. Vivamus tempor
-                        metus orci, non placerat est interdum non. Integer neque orci, finibus nec arcu et, vestibulum luctus urna. Suspendisse potenti. Sed maximus molestie mi ac sodales. Morbi egestas velit eget vehicula pharetra. Maecenas feugiat mi
-                        vel eros vulputate, et ornare tortor bibendum. Nam accumsan ligula ipsum, a interdum dolor pretium a. Duis a tellus nec lacus tempor mollis. Donec et magna vitae lorem ultrices euismod. Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit. Nunc in ullamcorper erat. Vivamus tempor metus orci, non placerat est interdum non. Integer neque orci, finibus nec arcu et, vestibulum luctus urna. Suspendisse potenti. Sed maximus molestie mi ac sodales. Morbi egestas velit
-                        eget vehicula pharetra. Maecenas feugiat mi vel eros vulputate, et ornare tortor bibendum. Nam accumsan ligula ipsum, a interdum dolor pretium a. Duis a tellus nec lacus tempor mollis. Donec et magna vitae lorem ultrices euismod.
-                    </div>
-                </div>
-                <div class="col-xs-12">
-                    <div class="section" class="card">
-                        <h3 class="text-center" id="sushi">Sushi</h3>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in ullamcorper erat. Vivamus tempor metus orci, non placerat est interdum non. Integer neque orci, finibus nec arcu et, vestibulum luctus urna. Suspendisse potenti. Sed maximus molestie mi
-                        ac sodales. Morbi egestas velit eget vehicula pharetra. Maecenas feugiat mi vel eros vulputate, et ornare tortor bibendum. Nam accumsan ligula ipsum, a interdum dolor pretium a. Duis a tellus nec lacus tempor mollis. Donec et magna
-                        vitae lorem ultrices euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in ullamcorper erat. Vivamus tempor metus orci, non placerat est interdum non. Integer neque orci, finibus nec arcu et, vestibulum luctus
-                        urna. Suspendisse potenti. Sed maximus molestie mi ac sodales. Morbi egestas velit eget vehicula pharetra. Maecenas feugiat mi vel eros vulputate, et ornare tortor bibendum. Nam accumsan ligula ipsum, a interdum dolor pretium a.
-                        Duis a tellus nec lacus tempor mollis. Donec et magna vitae lorem ultrices euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in ullamcorper erat. Vivamus tempor metus orci, non placerat est interdum non. Integer
-                        neque orci, finibus nec arcu et, vestibulum luctus urna. Suspendisse potenti. Sed maximus molestie mi ac sodales. Morbi egestas velit eget vehicula pharetra. Maecenas feugiat mi vel eros vulputate, et ornare tortor bibendum. Nam
-                        accumsan ligula ipsum, a interdum dolor pretium a. Duis a tellus nec lacus tempor mollis. Donec et magna vitae lorem ultrices euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in ullamcorper erat. Vivamus tempor
-                        metus orci, non placerat est interdum non. Integer neque orci, finibus nec arcu et, vestibulum luctus urna. Suspendisse potenti. Sed maximus molestie mi ac sodales. Morbi egestas velit eget vehicula pharetra. Maecenas feugiat mi
-                        vel eros vulputate, et ornare tortor bibendum. Nam accumsan ligula ipsum, a interdum dolor pretium a. Duis a tellus nec lacus tempor mollis. Donec et magna vitae lorem ultrices euismod. Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit. Nunc in ullamcorper erat. Vivamus tempor metus orci, non placerat est interdum non. Integer neque orci, finibus nec arcu et, vestibulum luctus urna. Suspendisse potenti. Sed maximus molestie mi ac sodales. Morbi egestas velit
-                        eget vehicula pharetra. Maecenas feugiat mi vel eros vulputate, et ornare tortor bibendum. Nam accumsan ligula ipsum, a interdum dolor pretium a. Duis a tellus nec lacus tempor mollis. Donec et magna vitae lorem ultrices euismod.
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div id="box">
+                    <p id="Chiken" class="Chiken">Chiken</p>
+                    <section class="text">Welcome to HTML, CSS, and Javascript for Web Developers! You’re joining thousands of learners currently enrolled in the course. I'm excited to have you in the class and look forward to your contributions to the learning community.
+                        To begin, I recommend taking a few minutes to explore the course site. Review the material we’ll cover each week, and preview the assignments you’ll need to complete to pass the course. Click Discussions to see forums where you
+                        can discuss the course material with fellow students taking the class.<br> If you have questions about course content, please post them in the forums to get help from others in the course community. For technical problems with
+                        the Coursera platform, visit the Learner Help Center. Good luck as you get started, and I hope you enjoy the course!<br> Welcome to HTML, CSS, and Javascript for Web Developers! You’re joining thousands of learners currently enrolled
+                        in the course. I'm excited to have you in the class and look forward to your contributions to the learning community. To begin, I recommend taking a few minutes to explore the course site. Review the material we’ll cover each week,
+                        and preview the assignments you’ll need to complete to pass the course. Click Discussions to see forums where you can discuss the course material with fellow students taking the class.<br> If you have questions about course content,
+                        please post them in the forums to get help from others in the course community. For technical problems with the Coursera platform, visit the Learner Help Center. Good luck as you get started, and I hope you enjoy the course!<br>                        Welcome to HTML, CSS, and Javascript for Web Developers! You’re joining thousands of learners currently enrolled in the course. I'm excited to have you in the class and look forward to your contributions to the learning community.
+                        To begin, I recommend taking a few minutes to explore the course site. Review the material we’ll cover each week, and preview the assignments you’ll need to complete to pass the course. Click Discussions to see forums where you
+                        can discuss the course material with fellow students taking the class.<br> If you have questions about course content, please post them in the forums to get help from others in the course community. For technical problems with
+                        the Coursera platform, visit the Learner Help Center. Good luck as you get started, and I hope you enjoy the course!</section>
+                    <div class="visible-xs">
+                        <h1>
+                            <a name="Chiken"></a>
+                        </h1>
+                        <p class="Back">End of Chiken section: <a href="#top">Back to Top</a></p>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <script src="jquery-3.5.1.min.js"></script>
-        <script src="bootstrap.min.js"></script>
-        <script src="script.js"></script>
-    </body>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div id="box">
+                    <p id="Beef" class="Beef">Beef</p>
+                    <section class="text">Welcome to HTML, CSS, and Javascript for Web Developers! You’re joining thousands of learners currently enrolled in the course. I'm excited to have you in the class and look forward to your contributions to the learning community.
+                        To begin, I recommend taking a few minutes to explore the course site. Review the material we’ll cover each week, and preview the assignments you’ll need to complete to pass the course. Click Discussions to see forums where you
+                        can discuss the course material with fellow students taking the class.<br> If you have questions about course content, please post them in the forums to get help from others in the course community. For technical problems with
+                        the Coursera platform, visit the Learner Help Center. Good luck as you get started, and I hope you enjoy the course!<br> Welcome to HTML, CSS, and Javascript for Web Developers! You’re joining thousands of learners currently enrolled
+                        in the course. I'm excited to have you in the class and look forward to your contributions to the learning community. To begin, I recommend taking a few minutes to explore the course site. Review the material we’ll cover each week,
+                        and preview the assignments you’ll need to complete to pass the course. Click Discussions to see forums where you can discuss the course material with fellow students taking the class.<br> If you have questions about course content,
+                        please post them in the forums to get help from others in the course community. For technical problems with the Coursera platform, visit the Learner Help Center. Good luck as you get started, and I hope you enjoy the course!<br>                        Welcome to HTML, CSS, and Javascript for Web Developers! You’re joining thousands of learners currently enrolled in the course. I'm excited to have you in the class and look forward to your contributions to the learning community.
+                        To begin, I recommend taking a few minutes to explore the course site. Review the material we’ll cover each week, and preview the assignments you’ll need to complete to pass the course. Click Discussions to see forums where you
+                        can discuss the course material with fellow students taking the class.<br> If you have questions about course content, please post them in the forums to get help from others in the course community. For technical problems with
+                        the Coursera platform, visit the Learner Help Center. Good luck as you get started, and I hope you enjoy the course!</section>
+                    <div class="visible-xs">
+                        <h1>
+                            <a name="Beef"></a>
+                        </h1>
+                        <p class="Back">End of Beef section: <a href="#top">Back to Top</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <div id="box">
+                    <p id="Sushi" class="Sushi">Sushi</p>
+                    <section class="text">Welcome to HTML, CSS, and Javascript for Web Developers! You’re joining thousands of learners currently enrolled in the course. I'm excited to have you in the class and look forward to your contributions to the learning community.
+                        To begin, I recommend taking a few minutes to explore the course site. Review the material we’ll cover each week, and preview the assignments you’ll need to complete to pass the course. Click Discussions to see forums where you
+                        can discuss the course material with fellow students taking the class.<br> If you have questions about course content, please post them in the forums to get help from others in the course community. For technical problems with
+                        the Coursera platform, visit the Learner Help Center. Good luck as you get started, and I hope you enjoy the course!<br> Welcome to HTML, CSS, and Javascript for Web Developers! You’re joining thousands of learners currently enrolled
+                        in the course. I'm excited to have you in the class and look forward to your contributions to the learning community. To begin, I recommend taking a few minutes to explore the course site. Review the material we’ll cover each week,
+                        and preview the assignments you’ll need to complete to pass the course. Click Discussions to see forums where you can discuss the course material with fellow students taking the class.v If you have questions about course content,
+                        please post them in the forums to get help from others in the course community. For technical problems with the Coursera platform, visit the Learner Help Center. Good luck as you get started, and I hope you enjoy the course!<br>                        Welcome to HTML, CSS, and Javascript for Web Developers! You’re joining thousands of learners currently enrolled in the course. I'm excited to have you in the class and look forward to your contributions to the learning community.
+                        To begin, I recommend taking a few minutes to explore the course site. Review the material we’ll cover each week, and preview the assignments you’ll need to complete to pass the course. Click Discussions to see forums where you
+                        can discuss the course material with fellow students taking the class.<br> If you have questions about course content, please post them in the forums to get help from others in the course community. For technical problems with
+                        the Coursera platform, visit the Learner Help Center. Good luck as you get started, and I hope you enjoy the course!</section>
+                    <div class="visible-xs">
+                        <h1>
+                            <a name="Sushi"></a>
+                        </h1>
+                        <p class="Back">End of Sushi section: <a href="#top">Back to Top</a></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
 
 </html>
